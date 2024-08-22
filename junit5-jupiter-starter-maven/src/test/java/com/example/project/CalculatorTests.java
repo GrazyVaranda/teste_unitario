@@ -45,7 +45,7 @@ class CalculatorTests {
 	@DisplayName("4 / 2 = 2")
 	void divTwoNumbers() {
 		Calculator calculator = new Calculator();
-		assertEquals(2, calculator.div(4, 2), "4 / 2 should equal 2");
+		assertEquals(2, calculator.div(2, 2), "2 / 2 should equal 1");
 	}
 
 }
